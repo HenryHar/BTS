@@ -1,0 +1,7 @@
+This is the output destination for the csv files created by the Retrosheet programs
+
+Once these are written, the program will append them into 1 massive csv file to combine all the information and have it available in 1 spot.
+
+Currently works for 2005-2018 (haven't tested previous seasons).
+
+Henry
