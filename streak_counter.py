@@ -1,12 +1,12 @@
 import pandas as pd
 
+hit_flags = [20, 21, 22, 23]   #20 = single, 21 = double, 22 = triple, 23 = homerun
 
 def hit_checker(df,players, game_numb = [[0,1],[0,1]]):
 #May 1st, 2019. Parameters changed: need to pass a dataframe already organized by year month day. 20x faster to run.
 #Organizing this dataframe can be accomplished outside hit_checker by using pandas .groupby and .get_groups(dates) functions.
 
     results =[]
-    hit_flags = [20, 21, 22, 23]   #20 = single, 21 = double, 22 = triple, 23 = homerun
     i = 0
     for player in players:
         new_df = df[df.double_header_flag.isin(game_numb[i])]
@@ -33,7 +33,6 @@ def hit_checker(df,players, game_numb = [[0,1],[0,1]]):
 def streak_counter(df,players, streak, game_numb = [[0,1],[0,1]]):
 
     results =[]
-    hit_flags = [20, 21, 22, 23]   #20 = single, 21 = double, 22 = triple, 23 = homerun
     i = 0
     for player in players:
         new_df = df[df.double_header_flag.isin(game_numb[i])]
