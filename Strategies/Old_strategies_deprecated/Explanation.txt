@@ -1,0 +1,5 @@
+On May 2nd 2019, we decided it was better to remove random simulations to remove noise and randomness from the results.
+
+As a result I've moved Strategy_1.ipynb to this folder. The notebook revolved around the idea of 'randomly chosing a batter' and running the experiment 1,000 times.
+
+New strategies will revolve around finding Hit Percentage's or 'number of times the chosen batter obtained a hit'. The chosen batter will chosen and not randomized. Eg. chose the batter with the highest batting average coming into the day.
