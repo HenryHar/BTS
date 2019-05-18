@@ -1,0 +1,12 @@
+retrosheet_data/retrosheet_files/*.EVA
+retrosheet_data/retrosheet_files/*.EVN
+retrosheet_data/retrosheet_files/*.ROS
+retrosheet_data/retrosheet_files/TEAM2*
+
+
+retrosheet_data/csv_files
+retrosheet_data/csv_files_game_info
+retrosheet_data/2005-2016*
+
+.ipynb_checkpoints
+__pycache__
