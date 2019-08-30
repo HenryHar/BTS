@@ -4,6 +4,7 @@ retrosheet_data/retrosheet_files/*.ROS
 retrosheet_data/retrosheet_files/TEAM2*
 
 
+
 retrosheet_data/csv_files
 retrosheet_data/csv_files_game_info
 retrosheet_data/2005-2016*
@@ -18,3 +19,16 @@ retrosheet_data/2005-2016_game_logs.csv
 retrosheet_data/2005-2016_game_logs.csv
 
 Strategies/1_day_contest/*
+*.pth
+win_loss_prob/scores.docx
+win_loss_prob/graphs/train_test_loss.png
+win_loss_prob/graphs/Runs_scored_runs_against_plots.png
+win_loss_prob/graphs/pythagenport_predictions.png
+win_loss_prob/graphs/Pythagenport.png
+win_loss_prob/graphs/pythagenpat_formula.png
+win_loss_prob/graphs/Pythagenpat.png
+win_loss_prob/graphs/port_formula.png
+win_loss_prob/graphs/neural_network_predictions.png
+
+
+win_loss_prob/old_versions/*
